@@ -1,0 +1,153 @@
+header{
+  background-image: url(https://previews.123rf.com/images/afanasia/afanasia1702/afanasia170200017/71564520-seamless-fashion-pattern-with-cute-black-cats-vector-dots-background-.jpg);
+  background-size: contain;
+
+}
+
+
+
+#img1{
+  margin-left: 550px;
+}
+
+#ulmenu {
+  list-style: none;
+
+}
+
+
+#limenu {
+  display: inline-block;
+  width: 13%;
+  height: 20px;
+  font-size: 15px;
+  padding: 10px;
+  margin-left: 20px;
+  color: #66CDAA;
+}
+
+#menu {
+  text-decoration: none;
+  opacity:0.5;
+}
+
+#menu:hover{
+  color: black;
+  opacity:1;
+
+}
+
+img #img2{
+  margin-left: 30px;
+
+}
+.colunaa{
+
+  height: 2000px;
+  width: 70%;
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: justify;
+  margin-top: 100px;
+
+
+}
+
+#img2{
+  margin-left:150px;
+}
+
+
+#img4{
+  margin-left: 100px;
+}
+
+.colunab{
+
+  height:400px;
+  width: 25%;
+  display: inline-block;
+  margin-bottom: 200px;
+  text-align: justify;
+  float: right;
+  margin-top: 100px;
+
+}
+#email{
+  margin-left: 45px;
+  width: 80%;
+}
+#submit{
+  border-bottom-style: double;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: 110px;
+  height: 30px;
+  background-color:#66CDAA;
+  border-color: #66CDAA;
+  margin-top: 10px;
+}
+
+#img3{
+  width: 30%;
+  height:30%;
+  margin-left: 100px;
+}
+
+.flexbox{
+
+  display: inline-flex;
+  width: 100%;
+  height: 200px;
+  justify-content: space-around;
+
+
+
+}
+
+#imgrss{
+  width: 25px;
+  height: 25px;
+  margin-top: 50px;
+
+}
+
+
+#lirs{
+  display: inline-block;
+
+
+
+
+
+}
+
+ .flexboxdiv1{
+  background-color: white;
+  flex-direction: row;
+  text-align: center;
+  font-size: 12px;
+
+
+
+
+
+}
+  .flexboxdiv2{
+   background-color: white;
+   flex-direction: row;
+   text-align: center;
+   font-size: 12px;
+
+}
+
+.flexboxdiv3{
+ background-color: white;
+ flex-direction: row;
+ text-align: center;
+ font-size: 12px;
+}
