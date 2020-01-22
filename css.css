@@ -1,109 +1,98 @@
-header{
-  background-image: url(https://previews.123rf.com/images/afanasia/afanasia1702/afanasia170200017/71564520-seamless-fashion-pattern-with-cute-black-cats-vector-dots-background-.jpg);
-  background-size: contain;
 
+.navmenutopo{
+display: flex;
 }
 
-
-
-#img1{
-  margin-left: 550px;
-}
-
-#ulmenu {
+.flexboxmenu {
   list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap-reverse;
+  justify-content:center;
+
 
 }
 
+.menutopo1{
+padding:20px;
+background-color: #C8FCFA;
 
-#limenu {
-  display: inline-block;
-  width: 13%;
-  height: 20px;
-  font-size: 15px;
-  padding: 10px;
-  margin-left: 20px;
-  color: #66CDAA;
 }
 
-#menu {
+.menutopo1:nth-child(1){
+border-bottom-left-radius: 40px;
+border-top-left-radius: 40px;
+}
+
+.menutopo1:nth-child(4){
+border-bottom-right-radius: 40px;
+border-top-right-radius: 40px;
+}
+
+
+a{
   text-decoration: none;
-  opacity:0.5;
 }
 
-#menu:hover{
-  color: black;
-  opacity:1;
+a:hover{
+  text-decoration: none;
+  background:#8BB0AF;
+  border-radius:20%;
+
 
 }
 
 img #img2{
-  margin-left: 30px;
+  max-width: 100%;
 
 }
-.colunaa{
 
-  height: 2000px;
-  width: 70%;
-  display: inline-block;
-  margin-left: 30px;
-  font-size: 15px;
-  font-family: sans-serif;
+.coluna{
+  display: inline-flex;
+  justify-content: space-around;
+
+
+}
+
+.colunaA{
+width: 50%;
+height: auto;
+
+}
+
+
+p{
   text-align: justify;
-  margin-top: 100px;
+
+}
+#imagemresponsiva{
+  width: 100%;
+  height: auto;
+}
+
+#imagemresponsiva1{
+  width: 50%;
+  height: auto;
 
 
 }
 
-#img2{
-  margin-left:150px;
-}
+.colunaB{
+width: 30%;
+height: 500px;
 
 
-#img4{
-  margin-left: 100px;
-}
-
-.colunab{
-
-  height:400px;
-  width: 25%;
-  display: inline-block;
-  margin-bottom: 200px;
-  text-align: justify;
-  float: right;
-  margin-top: 100px;
-
-}
-#email{
-  margin-left: 45px;
-  width: 80%;
-}
-#submit{
-  border-bottom-style: double;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  margin-left: 110px;
-  height: 30px;
-  background-color:#66CDAA;
-  border-color: #66CDAA;
-  margin-top: 10px;
-}
-
-#img3{
-  width: 30%;
-  height:30%;
-  margin-left: 100px;
 }
 
 .flexbox{
 
   display: inline-flex;
   width: 100%;
-  height: 200px;
+  height: 120px;
   justify-content: space-around;
+  background-color: #C8FCFA;
+  margin-top: 100px;
 
 
 
@@ -120,14 +109,9 @@ img #img2{
 #lirs{
   display: inline-block;
 
-
-
-
-
 }
 
  .flexboxdiv1{
-  background-color: white;
   flex-direction: row;
   text-align: center;
   font-size: 12px;
@@ -138,7 +122,6 @@ img #img2{
 
 }
   .flexboxdiv2{
-   background-color: white;
    flex-direction: row;
    text-align: center;
    font-size: 12px;
@@ -146,7 +129,6 @@ img #img2{
 }
 
 .flexboxdiv3{
- background-color: white;
  flex-direction: row;
  text-align: center;
  font-size: 12px;
