@@ -1,6 +1,16 @@
+/* banner da página */
 
+.banner{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  background-color: #B91F4F;
+}
+
+/* menu topo com flexbox */
 .navmenutopo{
-display: flex;
+  display: flex;
 }
 
 .flexboxmenu {
@@ -10,26 +20,21 @@ display: flex;
   flex-direction: row;
   flex-wrap:wrap-reverse;
   justify-content:center;
-
-
 }
 
-.menutopo1{
-padding:20px;
-background-color: #C8FCFA;
-
+.menutopo{
+  padding:20px;
 }
 
-.menutopo1:nth-child(1){
-border-bottom-left-radius: 40px;
-border-top-left-radius: 40px;
+.menutopo:nth-child(1){
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
 }
 
-.menutopo1:nth-child(4){
-border-bottom-right-radius: 40px;
-border-top-right-radius: 40px;
+.menutopo:nth-child(4){
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
 }
-
 
 a{
   text-decoration: none;
@@ -37,99 +42,115 @@ a{
 
 a:hover{
   text-decoration: none;
-  background:#8BB0AF;
+  background:#B91F4F;
   border-radius:20%;
-
-
 }
-
-img #img2{
-  max-width: 100%;
-
-}
-
+/* colunas com flexbox */
 .coluna{
   display: inline-flex;
   justify-content: space-around;
-
-
 }
 
+/* coluna lado esquerdo */
 .colunaA{
-width: 50%;
-height: auto;
+  width: 50%;
+  height: auto;
+  border-top: 2px solid #B91F4F;
+}
+
+h1{
+  text-align: center;
 
 }
 
+h2{
+  text-align: center;
 
+}
 p{
   text-align: justify;
 
 }
-#imagemresponsiva{
+.gatodeitado{
   width: 100%;
   height: auto;
 }
 
 #imagemresponsiva1{
-  width: 50%;
+  width: 100%;
   height: auto;
+  margin-top: 50px;
+  border-radius: 900px;
 
 
 }
+.testedeborda{
+  list-style: none;
 
+}
+
+.testedeimagem{
+  display: inline-flex;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  padding: 5px;
+
+}
+
+h3{
+  text-align: center;
+}
+
+/* coluna lado direito */
 .colunaB{
-width: 30%;
-height: 500px;
-
-
+  width: 30%;
+  height: auto;
+  border-top: 2px solid #B91F4F;
+  border-bottom: 2px solid #B91F4F;
 }
 
+/* flexbox rodapé */
 .flexbox{
 
   display: inline-flex;
   width: 100%;
   height: 120px;
   justify-content: space-around;
-  background-color: #C8FCFA;
+  background-color: #B91F4F;
   margin-top: 100px;
-
-
-
 }
 
-#imgrss{
+/* icone rede social */
+
+.imagemredesocial{
   width: 25px;
   height: 25px;
   margin-top: 50px;
-
 }
 
 
-#lirs{
+.redesocial{
   display: inline-block;
-
 }
 
- .flexboxdiv1{
+/* flexbox rede social */
+.flexboxdiv1{
   flex-direction: row;
   text-align: center;
   font-size: 12px;
-
-
-
-
-
-}
-  .flexboxdiv2{
-   flex-direction: row;
-   text-align: center;
-   font-size: 12px;
-
 }
 
+/* flexbox endereço*/
+
+.flexboxdiv2{
+  flex-direction: row;
+  text-align: center;
+  font-size: 12px;
+}
+/* flexbox telefone*/
 .flexboxdiv3{
- flex-direction: row;
- text-align: center;
- font-size: 12px;
+  flex-direction: row;
+  text-align: center;
+  font-size: 12px;
 }
