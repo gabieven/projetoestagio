@@ -5,12 +5,23 @@
   justify-content: center;
   width: auto;
   height: auto;
-  background-color: #B91F4F;
 }
+
+
+#imgbanner{
+border-radius: 50%;
+margin-bottom: 20px;
+}
+
+
 
 /* menu topo com flexbox */
 .navmenutopo{
   display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #B91F4F;
 }
 
 .flexboxmenu {
@@ -57,6 +68,7 @@ a:hover{
   width: 50%;
   height: auto;
   border-top: 2px solid #B91F4F;
+  margin-top: 40px;
 }
 
 
@@ -72,13 +84,13 @@ p{
   text-align: justify;
 }
 
-
 /* coluna lado direito */
 .colunaB{
   width: 30%;
   height: 90%;
   border-top: 2px solid #B91F4F;
   border-bottom: 2px solid #B91F4F;
+  margin-top: 40px;
 }
 
 
@@ -111,7 +123,7 @@ p{
   height: 20%;
   border-radius: 50%;
   padding: 10px;
-  justify-content:
+  cursor: pointer;
 }
 
 /* área de inscrição */
@@ -133,6 +145,7 @@ button{
   border-color: #B91F4F;
 }
 
+
 h4{
   text-align: center;
   line-height: 1px;
@@ -141,6 +154,33 @@ h4{
 #novidades{
   text-align: center;
 }
+
+
+#loginPopup {
+display: none;
+position: fixed;
+z-index: 4;
+padding-top: 200px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: #828282;
+opacity: 0.9;
+}
+
+
+.form-popup {
+z-index: 9;
+max-width: 40%;
+margin: 0 auto;
+background-color: #B91F4F;
+opacity: 0.9;
+border-radius: 10px;
+}
+
+
 
 /* flexbox rodapé */
 .flexbox{

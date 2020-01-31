@@ -12,7 +12,7 @@
 <body>
   <!-- Banner da página -->
     <header class="banner">
-      <img src="https://lirp-cdn.multiscreensite.com/93821219/dms3rep/multi/opt/The+Cat+Doctor+%284%29-160w.png">
+      <img id="imgbanner" src="https://lirp-cdn.multiscreensite.com/93821219/dms3rep/multi/opt/The+Cat+Doctor+%284%29-160w.png">
     </header>
 
 <!-- menu -->
@@ -65,6 +65,7 @@
       </div>
 <!-- perfil de profissionais -->
       <div class="nossaequipe">
+
        <img class="profissionais" src="https://i.pinimg.com/564x/ca/f3/b5/caf3b567625f6339d3247dad7b518c68.jpg">
        <img class="profissionais" src="https://i.pinimg.com/564x/1f/a2/12/1fa212e9a55aad7286b979af5a35c41f.jpg">
        <img class="profissionais" src="https://i.pinimg.com/564x/4f/6d/76/4f6d76ef78d238fd7e7743437ffb2c2d.jpg">
@@ -78,12 +79,17 @@
           <p id="novidades">Se inscreva e receba nossa novidades!</p>
           <input class="w3-input w3-animate-input" type="text" placeholder="E-mail" style="width:135px">
           <br>
-          <button type="button" name="enviar">Enviar</button>
-          </form>
-        </div>
+          <button class="open-button" onclick="openForm()" type="button" name="enviar">Enviar</button>
+      </form>
+          <div id="loginPopup">
+          <div class="form-popup" id="popupForm">
+          <form action="/action_page.php" class="form-container">
+          <h2>Cadastro realizado com sucesso!</h2>
+      </div>
+
       </div>
  </main>
-
+<script src="js.js"> </script>
 <!-- rodapé -->
  <footer>
    <div class="flexbox">
