@@ -7,7 +7,7 @@ function openForm() {
    }
    // When the user clicks anywhere outside of the modal, close it
    window.onclick = function(event) {
-     var modal = document.getElementById("loginPopup");
+     var closeForm = document.getElementById("loginPopup");
      if (event.target == modal) {
        closeForm();
      }
@@ -50,7 +50,7 @@ function openForm() {
    window.onclick = function(e){
      if(e.target == modal1){
        modal1.style.display = "none";
-    
+
 
      }
    }
