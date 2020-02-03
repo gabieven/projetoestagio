@@ -14,85 +14,43 @@ function openForm() {
    }
 
 
-// popup nossa eqyi
+// popup nossa equipe //
 
-   let modalBtn1 = document.getElementById("modal-btn-1")
-   let modal1 = document.querySelector(".modal1")
-   let closeBtn1 = document.querySelector(".close-btn-1")
-   modalBtn1.onclick = function(){
-     modal1.style.display = "block"
-   }
+   //let modalBtn1 = document.getElementById("modal-btn-1");
+   let modal1 = document.querySelector(".modal1");
+   let closeBtn1 = document.querySelector(".close-btn-1");
+   let novo = document.querySelectorAll(".profissionais");
+   let ymg = document.querySelectorAll(".img-modal-1");
+   let contt = document.querySelectorAll(".test1");
+   var sn = 0;
+
+   function neo(){
+
+    novo.forEach((item, index) =>
+    {
+      item.addEventListener('click',function(e)
+       {
+        // novo[0].style.display = "block"
+        modal1.style.display = "block";
+        ymg[index].style.display = "block";
+        contt[index].style.display = "block";
+        sn = index;
+       }
+    )
+    });
+  }
+  neo();
+
    closeBtn1.onclick = function(){
-     modal1.style.display = "none"
+     modal1.style.display = "none";
+     ymg[sn].style.display = "none";
+     contt[sn].style.display = "none";
+
    }
    window.onclick = function(e){
      if(e.target == modal1){
-       modal1.style.display = "none"
+       modal1.style.display = "none";
+    
+
      }
    }
-
-
-
-   let modalBtn2 = document.getElementById("modal-btn-2")
-   let modal2 = document.querySelector(".modal2")
-   let closeBtn2 = document.querySelector(".close-btn-2")
-   modalBtn2.onclick = function(){
-     modal2.style.display = "block"
-   }
-   closeBtn2.onclick = function(){
-     modal2.style.display = "none"
-   }
-   window.onclick = function(e){
-     if(e.target == modal2){
-       modal2.style.display = "none"
-     }
-   }
-
-// Modal popup perfil 3 //
-   let modalBtn3 = document.getElementById("modal-btn-3")
-   let modal3 = document.querySelector(".modal3")
-   let closeBtn3 = document.querySelector(".close-btn-3")
-   modalBtn3.onclick = function(){
-     modal3.style.display = "block"
-   }
-   closeBtn3.onclick = function(){
-     modal3.style.display = "none"
-   }
-   window.onclick = function(e){
-     if(e.target == modal3){
-       modal3.style.display = "none"
-     }
-   }
-
-
-   // Modal popup perfil 4 //
-      let modalBtn4 = document.getElementById("modal-btn-4")
-      let modal4 = document.querySelector(".modal4")
-      let closeBtn4 = document.querySelector(".close-btn-4")
-      modalBtn4.onclick = function(){
-        modal4.style.display = "block"
-      }
-      closeBtn4.onclick = function(){
-        modal4.style.display = "none"
-      }
-      window.onclick = function(e){
-        if(e.target == modal4){
-          modal4.style.display = "none"
-        }
-      }
-
-      // Modal popup perfil 5 //
-         let modalBtn5 = document.getElementById("modal-btn-5")
-         let modal5 = document.querySelector(".modal5")
-         let closeBtn5 = document.querySelector(".close-btn-5")
-         modalBtn5.onclick = function(){
-           modal5.style.display = "block"
-         }
-         closeBtn5.onclick = function(){
-           modal5.style.display = "none"
-         }
-         window.onclick = function(e){
-           if(e.target == modal5){
-             modal.style.display = "none"
-           }
-         }
