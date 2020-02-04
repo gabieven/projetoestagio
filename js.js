@@ -21,7 +21,7 @@ function openForm() {
    let closeBtn1 = document.querySelector(".close-btn-1");
    let novo = document.querySelectorAll(".profissionais");
    let ymg = document.querySelectorAll(".img-modal-1");
-   let contt = document.querySelectorAll(".test1");
+   let contt = document.querySelectorAll(".conteudo");
    var sn = 0;
 
    function neo(){
